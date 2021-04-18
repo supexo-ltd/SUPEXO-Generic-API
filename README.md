@@ -32,7 +32,9 @@ For testing enviroment you need to replace supexo.io with staging.supexo.io
             }	    
   
   b.Get Balance 
+  
         POST	
+	
         Parameters:
             address
             username
@@ -53,7 +55,9 @@ For testing enviroment you need to replace supexo.io with staging.supexo.io
             }
   
   c.Send Amount:
+  
         POST
+	
         Parameters
         username
         password
