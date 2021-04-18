@@ -76,6 +76,7 @@ For testing enviroment you need to replace supexo.io with staging.supexo.io
 
 
 4.to create a supexo transaction from your wallet you need to do the following steps 
+  
   a. you need to call the auth API:
       URL: supexo.io/?rest_route=/simple-jwt-login/v1/auth
  
