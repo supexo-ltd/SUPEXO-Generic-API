@@ -115,6 +115,6 @@ For testing enviroment you need to replace supexo.io with staging.supexo.io
 			
 			Resposne:
 			{
-					status: true,
-    				        record_id : 5
+				status: true,
+    			record_id : 5
 			}
