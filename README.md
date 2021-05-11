@@ -64,6 +64,7 @@ For testing enviroment you need to replace supexo.io with staging.supexo.io
         source_address
         destination_address
         amount
+        record_id  // internal supexo record id of the transaction this paramter may help the client to track the transaction
 
         Success Response
         {
@@ -118,3 +119,6 @@ For testing enviroment you need to replace supexo.io with staging.supexo.io
 				status: true,
     			record_id : 5
 			}
+			
+	CURL example : 
+	curl -X POST -H 'Authorization: Bearer <token>"' -H "Content-type: multipart/form-data;" -F 'amount=<amount>' -F "currency=<currency>" -F "sending_address=	   	                         <sending_address>" -F "receiving_address=<receiving_address>" 'https://staging.supexo.io/wp-json/supexo/create_transaction'
